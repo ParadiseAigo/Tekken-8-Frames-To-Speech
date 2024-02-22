@@ -18,6 +18,8 @@ void playFramesAudio(int frames) {
 // 2. MAKE SURE YOU CLOSE THE "resource.h" FILE IN THE VISUAL STUDIO EDITOR OR YOU WILL GET THE ACCESS DENIED ERROR DURING THE NEXT STEP
 // 3. Inside Visual Studio > *right click* your "Resource Files" folder > Add > Resource... > *select* "WAVE" (sometimes there is no "WAVE" option...) > Import...
 
+// ADDING AN ICON TO YOUR EXE: is very similar to the above steps, simply add the .ico file as a "Resource" and you're done
+
 LPCWSTR getWavResourcePath(int frames) {
 	LPCWSTR path = 0;
 	switch (frames) {
