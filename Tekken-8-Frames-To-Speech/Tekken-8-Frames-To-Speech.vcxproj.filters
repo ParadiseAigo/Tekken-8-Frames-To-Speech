@@ -15,8 +15,101 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tekken-8-Frames-To-Speech.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="audio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tekken.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="frames-to-speech.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="audio\wav\5.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\6.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\7.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\8.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\9.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\10.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\11.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\12.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\13.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\14.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\15.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\16.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\17.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\18.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\19.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\20.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\21.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\22.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\23.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="audio\wav\24.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tekken-8-Frames-To-Speech.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

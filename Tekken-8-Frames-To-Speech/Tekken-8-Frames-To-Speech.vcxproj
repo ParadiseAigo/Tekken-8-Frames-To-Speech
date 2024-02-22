@@ -139,7 +139,42 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Tekken-8-Frames-To-Speech.cpp" />
+    <ClCompile Include="audio.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="memory.cpp" />
+    <ClCompile Include="tekken.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio.h" />
+    <ClInclude Include="frames-to-speech.h" />
+    <ClInclude Include="pointers.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="audio\wav\10.wav" />
+    <Media Include="audio\wav\11.wav" />
+    <Media Include="audio\wav\12.wav" />
+    <Media Include="audio\wav\13.wav" />
+    <Media Include="audio\wav\14.wav" />
+    <Media Include="audio\wav\15.wav" />
+    <Media Include="audio\wav\16.wav" />
+    <Media Include="audio\wav\17.wav" />
+    <Media Include="audio\wav\18.wav" />
+    <Media Include="audio\wav\19.wav" />
+    <Media Include="audio\wav\20.wav" />
+    <Media Include="audio\wav\21.wav" />
+    <Media Include="audio\wav\22.wav" />
+    <Media Include="audio\wav\23.wav" />
+    <Media Include="audio\wav\24.wav" />
+    <Media Include="audio\wav\5.wav" />
+    <Media Include="audio\wav\6.wav" />
+    <Media Include="audio\wav\7.wav" />
+    <Media Include="audio\wav\8.wav" />
+    <Media Include="audio\wav\9.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tekken-8-Frames-To-Speech.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
