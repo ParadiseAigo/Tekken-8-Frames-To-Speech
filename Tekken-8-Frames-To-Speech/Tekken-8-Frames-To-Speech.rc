@@ -90,6 +90,16 @@ IDR_WAVE19              WAVE                    "audio\\wav\\23.wav"
 
 IDR_WAVE20              WAVE                    "audio\\wav\\24.wav"
 
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "steve.ico"
+
 #endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
 

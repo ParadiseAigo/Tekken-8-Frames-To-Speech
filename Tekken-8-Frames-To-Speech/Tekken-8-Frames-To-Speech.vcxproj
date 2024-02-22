@@ -176,6 +176,9 @@
   <ItemGroup>
     <ResourceCompile Include="Tekken-8-Frames-To-Speech.rc" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="steve.ico" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
