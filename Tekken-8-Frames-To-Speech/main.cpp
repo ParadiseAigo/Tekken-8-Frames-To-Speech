@@ -69,9 +69,8 @@ void mainLoop() {
 		if (abs(prevRecoveryFrames) < abs(p1RecoveryFrames)) {
 			playFramesAudio(abs(p1RecoveryFrames));
 		}
-		//Debugging
 		if ((p2State != p2PrevState) || (p1RecoveryFrames != prevRecoveryFrames || (p1State != p1PrevState))) {
-			printf("p1 recovery: %d,  p1 state: %d,  p2 state: %d\n", p1RecoveryFrames, p1State, p2State);
+			printf("p1 recovery: %d,  p1 state: %d,  p2 state: %d\n", p1RecoveryFrames, p1State, p2State); //Debugging
 			p2PrevState = p2State;
 			p1PrevState = p1State;
 			prevRecoveryFrames = p1RecoveryFrames;
