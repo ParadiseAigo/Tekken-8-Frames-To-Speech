@@ -17,6 +17,7 @@ int main() {
 }
 
 void init() {
+	std::cout << "Tekken 8 must be version " << TEKKEN_VERSION << std::endl;
 	initTekkenHandle();
 	initModuleAddresses();
 	std::cout << "Program ready!" << std::endl;
